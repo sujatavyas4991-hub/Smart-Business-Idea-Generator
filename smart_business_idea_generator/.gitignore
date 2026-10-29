@@ -1,0 +1,79 @@
+# -- Environment & Secrets ----------------------------------------------------
+.env
+.env.*
+!env.example
+
+# -- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# -- Virtual Environments -----------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# -- Distribution / Build -----------------------------------------------------
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+
+# -- Testing & Coverage -------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# -- Type Checking ------------------------------------------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# -- IDE / Editor -------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# -- Application Data (auto-generated at runtime) -----------------------------
+data/
+static/uploads/
+
+# -- Logs ---------------------------------------------------------------------
+*.log
+logs/
+
+# -- Gunicorn -----------------------------------------------------------------
+gunicorn_error.log
+gunicorn_access.log
+
+# -- Flask instance folder ----------------------------------------------------
+instance/
+
+# -- Jupyter Notebooks --------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -- OS generated -------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
